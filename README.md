@@ -1,16 +1,14 @@
-## Hi there 👋
+## Hi, I'm Muhammad Ayman Tawfiq Moradhun 💫
 
-<!--
-**AymanMoradhun/AymanMoradhun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 💻 Coding / None
+- 🌱 Currently learning: UI
+- 📫 Reach me: aymsbx@gmail.com / []
+  (https://www.linkedin.com/in/YOUR_PROFILE_LINK)
 
-Here are some ideas to get you started:
+## ⚙My Tech Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+CSharp, Powershell, HTML
+
+## 🛠 My Favorite Tools
+
+Visual Studio, Visual Studio Code, Gemini, ChatGPT, Copilot, Claude, Chrome DevTools
