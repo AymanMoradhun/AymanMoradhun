@@ -12,3 +12,4 @@ CSharp, Powershell, HTML
 ## 🛠 My Favorite Tools
 
 Visual Studio, Visual Studio Code, Gemini, ChatGPT, Copilot, Claude, Chrome DevTools
+
