@@ -3,7 +3,7 @@
 - 💻 Coding / None
 - 🌱 Currently learning: UI
 - 📫 Reach me: aymsbx@gmail.com / []
-  (https://www.linkedin.com/in/YOUR_PROFILE_LINK)
+  (https://www.linkedin.com/in/ayman-moradhun-797219389/)
 
 ## ⚙My Tech Stack
 
