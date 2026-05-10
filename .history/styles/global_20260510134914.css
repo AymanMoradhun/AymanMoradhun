@@ -1,7 +1,7 @@
 @font-face 
 {
   font-family: 'Maven Pro';
-  src: url('fonts/MavenPro-VariableFont_wght.ttf') format('truetype');
+  src: url('./fonts/MavenPro-VariableFont_wght.ttf') format('truetype');
   font-weight: 400 900;
   font-style: normal;
 }
