@@ -1,0 +1,14 @@
+@font-face 
+{
+  font-family: 'Maven Pro';
+  src: url('fonts/MavenPro-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400 900;
+  font-style: normal;
+}
+
+body 
+{
+  font-family: 'Maven Pro', sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
