@@ -1,0 +1,89 @@
+nav {
+  background: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #50aebb;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #242424;
+}
+
+header {
+  background: #3d44ad9d;
+  padding: 10vh 2rem;
+  text-align: center;
+}
+
+.container {
+  padding: 2rem;
+}
+
+/* ── Responsive grid ── */
+/* mobile-first: single column by default */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* two columns once there's enough room */
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+}
+
+/* ── Card link wrapper ── */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* ── Card ── */
+.card {
+  border: 1px solid #8005a5;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  height: 100%;
+}
+
+.card-link:hover .card {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(128, 5, 165, 0.15);
+  border-color: #50aebb;
+}
+
+.card-cta {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #8005a5;
+  border: 1px solid #8005a5;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.card-link:hover .card-cta {
+  background: #8005a5;
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+}

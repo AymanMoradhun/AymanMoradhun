@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayman | Racing Game — Programming 1</title>
+
+    <link rel="stylesheet" href="./styles/projects.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/" style="text-decoration: none; color: inherit;">
+        <strong>Ayman's homepage</strong>
+      </a>
+      <a href="./index.html" class="back-link">← Back to projects</a>
+    </nav>
+
+    <header class="project-header">
+      <h1>Racing Game — Programming 1 Final</h1>
+      <p>A retro-style console racing game built in C# with Visual Studio.</p>
+    </header>
+
+    <main class="container">
+
+      <h2>About this project</h2>
+      <p>
+        This was the final project for Programming 1 at John Abbott College. The goal
+        was to build a playable game entirely in a C# console application — no game engine,
+        just code. The game runs in real time, tracks score, and ends when the timer hits zero
+        or the player collides with a bomb.
+      </p>
+
+      <h2>Screenshots</h2>
+      <section class="screenshot-grid">
+        <figure>
+          <img
+            src="./assets/images/Mayhem_1.png"
+            alt="Gameplay screenshot showing the player dodging bombs and collecting fuel cans"
+          />
+          <figcaption>Gameplay — dodge bombs, collect fuel cans before time runs out</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./assets/images/Mayhem_2.png"
+            alt="Game over screen showing final score of 257"
+          />
+          <figcaption>Game over screen with final score and replay option</figcaption>
+        </figure>
+      </section>
+
+      <h2>How it works</h2>
+      <p>
+        The player navigates a vehicle through a field of bombs and fuel cans.
+        Collecting fuel cans adds to the score. Hitting a bomb ends the run.
+        A 60-second countdown adds pressure, and a gravity toggle changes how
+        the player moves.
+      </p>
+
+      <section class="detail-grid">
+
+        <div class="detail-card">
+          <h3>Technologies</h3>
+          <ul>
+            <li>C#</li>
+            <li>Visual Studio</li>
+            <li>.NET Console App</li>
+          </ul>
+        </div>
+
+        <div class="detail-card">
+          <h3>Game mechanics</h3>
+          <ul>
+            <li>60-second timer</li>
+            <li>Score tracking</li>
+            <li>Fuel can collection</li>
+            <li>Bomb collision detection</li>
+            <li>Gravity toggle</li>
+          </ul>
+        </div>
+
+        <div class="detail-card">
+          <h3>What I learned</h3>
+          <ul>
+            <li>Real-time input handling</li>
+            <li>Game loops in C#</li>
+            <li>Console rendering techniques</li>
+            <li>Collision detection logic</li>
+          </ul>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Ayman</p>
+    </footer>
+  </body>
+</html>

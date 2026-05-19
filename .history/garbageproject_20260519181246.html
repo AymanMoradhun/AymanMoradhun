@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayman | Garbage Detection — Information Technology</title>
+
+    <link rel="stylesheet" href="./styles/projects.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/" style="text-decoration: none; color: inherit;">
+        <strong>Ayman's homepage</strong>
+      </a>
+      <a href="./index.html" class="back-link">← Back to projects</a>
+    </nav>
+
+    <header class="project-header">
+      <h1>Garbage Detection — Information Technology</h1>
+      <p>A hardware + software system that detects garbage using a webcam and a Raspberry Pi Pico.</p>
+    </header>
+
+    <main class="container">
+
+      <h2>About this project</h2>
+      <p>
+        This project was built for the Information Technology course at John Abbott College.
+        The goal was to combine hardware and software to create a real working detection system.
+        A webcam detects garbage, and the signal is sent to a Raspberry Pi Pico on a breadboard
+        which triggers LEDs as visual indicators.
+      </p>
+
+      <h2>Hardware setup</h2>
+      <section class="screenshot-grid screenshot-grid--single">
+        <figure>
+          <img
+            src="./assets/images/Pico.jpg"
+            alt="Raspberry Pi Pico on a breadboard with blue and red LEDs and resistors"
+          />
+          <figcaption>Raspberry Pi Pico wired on a breadboard with blue and red indicator LEDs</figcaption>
+        </figure>
+      </section>
+
+      <h2>How it works</h2>
+      <p>
+        A webcam captures a live feed and detects the presence of garbage. When triggered,
+        it sends a signal to the Raspberry Pi Pico. The Pico runs code written in Arduino IDE
+        and controls two LEDs on the breadboard — one for a clean state, one for a detected
+        garbage state.
+      </p>
+
+      <section class="detail-grid">
+
+        <div class="detail-card">
+          <h3>Hardware</h3>
+          <ul>
+            <li>Raspberry Pi Pico</li>
+            <li>Breadboard</li>
+            <li>Blue + red + white LEDs</li>
+            <li>Resistors</li>
+            <li>USB connection</li>
+            <li>Webcam</li>
+          </ul>
+        </div>
+
+        <div class="detail-card">
+          <h3>Software</h3>
+          <ul>
+            <li>Arduino IDE</li>
+            <li>C++ (Arduino)</li>
+            <li>Code flashed to the Pico</li>
+          </ul>
+        </div>
+
+        <div class="detail-card">
+          <h3>What I learned</h3>
+          <ul>
+            <li>Hardware-software integration</li>
+            <li>Programming microcontrollers</li>
+            <li>Breadboard wiring & resistors</li>
+            <li>Working with Arduino IDE</li>
+          </ul>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Ayman</p>
+    </footer>
+  </body>
+</html>

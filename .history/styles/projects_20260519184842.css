@@ -1,0 +1,135 @@
+nav {
+  background: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #50aebb;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.back-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #8005a5;
+  border: 1px solid #8005a5;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.back-link:hover {
+  background: #8005a5;
+  color: #ffffff;
+}
+
+
+.project-header {
+  background: #3d44ad9d;
+  padding: 8vh 2rem;
+  text-align: center;
+}
+
+.project-header h1 {
+  font-size: clamp(1.4rem, 4vw, 2.2rem); 
+  margin-bottom: 0.5rem;
+}
+
+.project-header p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ── Content ── */
+.container {
+  padding: 2rem;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.container p,
+.container li {
+  color: #333;
+}
+
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 600px) {
+  .detail-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+.detail-card {
+  border: 1px solid #8005a5;
+  padding: 1.25rem 1.5rem;
+}
+
+.detail-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #8005a5;
+}
+
+.detail-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+/* ── Screenshots ── */
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 1rem 0 2rem;
+}
+
+@media (min-width: 600px) {
+  .screenshot-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  .screenshot-grid--single {
+    grid-template-columns: 1fr;
+    max-width: 480px;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+  border: 1px solid #8005a5;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 0.4rem;
+}
+
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #333;
+  color: white;
+  margin-top: 3rem;
+}
